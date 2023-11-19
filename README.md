@@ -1,6 +1,6 @@
 # CardanoCodex'23
 
-![CardanoCodex](https://github.com/CardanoInd/CardanoCodex-23/blob/2608817981eaf0c7aa3d62beb81997db44cd596f/assets/Cardano%20Codex%2023%20Cardano.png)
+![CardanoCodex](https://i.ibb.co/23rn1rM/hackathon.png)
 
 Welcome to [**CardanoCodex'23 Hackathon**](https://cardanocodex.com) powered by [**Nucast Labs**](https://nucast.io/)
 Please find attached the rules and steps to submit your project for the hackathon :
@@ -9,7 +9,7 @@ Please find attached the rules and steps to submit your project for the hackatho
 
 Fork the given repository to your GitHub profile.
 
-![fork](https://github.com/CardanoInd/CardanoCodex-23/blob/2608817981eaf0c7aa3d62beb81997db44cd596f/assets/ss_fork.jpeg)
+![fork](https://i.ibb.co/jWwqxY4/ss-fork.jpg)
 
 ## Step - 2: Create your folder
 
