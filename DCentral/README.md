@@ -24,8 +24,8 @@ Cardano-cli and cardano-node: Used to submit the transaction to the blockchain.
 ### How to run
 
 #### 1. Start your cardano-node
-
-#### 2. Set properties
+#### 2. Navigate inside folder `DCentral`
+#### 3. Set properties
 
 You need to set the following values in `/src/Properties.hs`
 
@@ -36,7 +36,7 @@ You need to set the following values in `/src/Properties.hs`
 
 Place the signing key for the address holding your tokens under `/runtime` directory
 
-#### 3. Build the haskell executable
+#### 4. Build the haskell executable
 ```bash
 cabal build tps-cooker
 ```
@@ -58,12 +58,12 @@ In order, the following will be built (use -v for more details):
 ```
 
 
-#### 4. Place your token distribution csv in `resources` directory and run the executable 
+#### 5. Place your token distribution csv in `resources` directory and run the executable 
 
  The distribution data is tabular data named `recipe.csv` with columns `slno,address,assetId,assetName,amount` to create batched transactions.
 Take a look at the sample file `recipe-sample.csv` to see the format of the file.
 
-#### 4. Run the utility. Execute the script
+#### 6. Run the utility. Execute the script
 ```bash
 ./prepare-and-submit-tx.sh
 ```
