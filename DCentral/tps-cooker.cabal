@@ -1,0 +1,54 @@
+cabal-version:      3.6
+name:               DCentral-tps-cooker
+version:            1.0.0.0
+synopsis:           tps-cooker
+
+author:             Team DCentral
+
+common lang
+    default-language:   Haskell2010
+    ghc-options:
+      -Wall -Wnoncanonical-monad-instances
+      -Wincomplete-uni-patterns -Wincomplete-record-updates
+      -Wredundant-constraints -Widentities -rtsopts
+      -Wno-missing-signatures
+      -- See Plutus Tx readme
+      -fobject-code -fno-ignore-interface-pragmas -fno-omit-interface-pragmas
+
+
+library
+    import: lang
+    hs-source-dirs: src
+    exposed-modules:
+     TxChef,
+     Properties,
+     Types
+    build-depends:
+     aeson,
+     base >= 4.9,
+     bytestring,
+     containers,
+     MissingH,
+     hex,
+     http-conduit,
+     split >= 0.2,
+     time >= 1.9
+
+executable tps-cooker
+    import: lang
+    main-is: TxChef.hs
+    ghc-options: -main-is TxChef
+    hs-source-dirs: src
+    other-modules:
+     Properties,
+     Types
+    build-depends:
+     aeson,
+     base >= 4.9,
+     bytestring,
+     containers,
+     MissingH,
+     hex,
+     http-conduit,
+     split >= 0.2,
+     time >= 1.9
