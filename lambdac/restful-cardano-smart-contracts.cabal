@@ -1,0 +1,138 @@
+cabal-version:      3.0
+name:               restful-cardano-smart-contracts
+version:            1.0
+
+-- A short (one-line) description of the package.
+synopsis: API abstraction for off-chain Plutus for dApps.
+
+-- A longer description of the package.
+description: This package is offers a convenient way to bridge the frontend/backend for DApps with their off-chain Plutus code. The RESTful API can be used to fetch to attributes deduced with Plutus at runtime.
+
+license: Apache-2.0
+
+flag defer-plugin-errors
+    description:
+        Defer errors from the plugin, useful for things like Haddock that can't handle it.
+    default: False
+    manual: True
+
+common lang
+    default-language:   Haskell2010
+    ghc-options:
+      -Wall -Wnoncanonical-monad-instances
+      -Wincomplete-uni-patterns -Wincomplete-record-updates
+      -Wredundant-constraints -Widentities -rtsopts
+      -- See Plutus Tx readme
+      -fobject-code -fno-ignore-interface-pragmas -fno-omit-interface-pragmas
+    if flag(defer-plugin-errors)
+        ghc-options: -fplugin-opt PlutusTx.Plugin:defer-errors
+
+library
+    import: lang
+    exposed-modules:
+      Sample.Contracts.Escrow,
+      Sample.Contracts.EscrowTrace,
+      Sample.Contracts.TokenMinter,
+      Sample.Contracts.TokenMinterTrace,
+      Sample.Contracts.Types,
+      Sample.Runtime,
+      Plutus.Rest.Utils,
+      AttributeServer,
+      ProjectPAB
+    build-depends:
+      base >= 4.9 && < 5,
+      aeson -any,
+      aeson-pretty -any,
+      attoparsec -any,
+      base-compat -any,
+      blaze-html -any,
+      blaze-markup -any,
+      bytestring -any,
+      containers -any,
+      cardano-addresses -any,
+      cardano-api -any,
+      cardano-crypto-class -any,
+      cardano-ledger-core -any,
+      data-default -any,
+      directory -any,
+      either-unwrap -any,
+      freer-extras -any,
+      freer-simple -any,
+      http-media -any,
+      lens -any,
+      lucid -any,
+      mtl -any,
+      openapi3 -any,
+      playground-common -any,
+      plutus-contract -any,
+      plutus-ledger -any,
+      plutus-ledger-api -any,
+      plutus-ledger-constraints -any,
+      plutus-pab -any,
+      plutus-tx -any,
+      plutus-tx-plugin -any,
+      plutus-script-utils -any,
+      prettyprinter -any,
+      process -any,
+      serialise -any,
+      servant -any,
+      servant-server -any,
+      string-conversions -any,
+      tasty -any,
+      tasty-hunit -any,
+      text -any,
+      text -any,
+      time -any,
+      wai -any,
+      warp -any,
+      utf8-string -any
+    hs-source-dirs: src, app
+
+executable restful-cardano-smart-contracts-pab
+  import: lang
+  main-is: pab.hs
+  hs-source-dirs: app
+  ghc-options:
+    -threaded
+  build-depends:
+    base >= 4.9 && < 5,
+    data-default -any,
+    plutus-contract -any,
+    plutus-pab -any,
+    restful-cardano-smart-contracts -any,
+    aeson -any,
+    freer-simple -any,
+    prettyprinter -any,
+    freer-extras -any,
+    plutus-ledger -any,
+    openapi3 -any
+
+executable endpoint-server
+  main-is: server-main.hs
+  hs-source-dirs:      app
+  ghc-options:         -Wall
+  build-depends:       base ^>= 4.14.1.0
+                     , aeson
+                     , attoparsec
+                     , base-compat
+                     , blaze-html
+                     , blaze-markup
+                     , bytestring
+                     , cardano-api
+                     , cardano-addresses
+                     , directory
+                     , either-unwrap
+                     , http-media
+                     , lucid
+                     , mtl
+                     , plutus-ledger
+                     , plutus-ledger-api
+                     , restful-cardano-smart-contracts
+                     , plutus-tx
+                     , servant
+                     , servant-server
+                     , string-conversions
+                     , text
+                     , time
+                     , wai
+                     , warp
