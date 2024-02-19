@@ -2,19 +2,20 @@
     RESTful endpoints for Cardano Smart Contracts 
 
 2. Description
-    We improvise Plutus smart contracts to add an api layer that can provide information related to the contracts at runtime over REST apis. 
+   We improvise Plutus smart contracts to add an api layer that can provide information related to the contracts at runtime over REST apis.
 
-    Supported features in this project
-    <ul>
+   Supported endpoints in this project
 
-        <li>:heavy_check_mark: Plutus pub key hash for a given bech32 address</li>
-        <li>:heavy_check_mark: Parameterized script address</li>
-        <li>:heavy_check_mark: CBOR encoded script generated with Plutus</li>
-        <li>:heavy_check_mark: Datum hash as encoded by Plutus</li>
-        <li>:heavy_check_mark: Serialized datum</li>
-        <li>:heavy_check_mark: Policy id / currency symbol for parametrised minting contracts</li>
+<ul>
 
-    </ul>
+<li>:heavy_check_mark: Plutus pub key hash for a given bech32 address</li>
+<li>:heavy_check_mark: Parameterized script address</li>
+<li>:heavy_check_mark: CBOR encoded script generated with Plutus</li>
+<li>:heavy_check_mark: Datum hash as encoded by Plutus</li>
+<li>:heavy_check_mark: Serialized datum</li>
+<li>:heavy_check_mark: Policy id / currency symbol for parametrised minting contracts</li>
+
+</ul>
 
 
 3. Problem we are trying to solve
