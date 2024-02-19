@@ -28,7 +28,7 @@ It is not easy to bridge front end and back end for smart contract dapps. By pro
 
 ### 5. Demo Video
 
-https://youtu.be/ez4AFcU9DKU
+https://youtu.be/XtUAcTmoKas
 
 ### 6. Live Project Link
     
