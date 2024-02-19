@@ -1,7 +1,7 @@
-1. Project
+### 1. Project
     RESTful endpoints for Cardano Smart Contracts 
 
-2. Description
+### 2. Description
    We improvise Plutus smart contracts to add an api layer that can provide information related to the contracts at runtime over REST apis.
 
    Supported endpoints in this project
@@ -18,35 +18,37 @@
 </ul>
 
 
-3. Problem we are trying to solve
-    It isn't easy to bridge front end and back end for smart contract dapps. By providing a template for an API layer over the smart contracts, we guide teams to create a bridge to backend smart contract code accessible easily over http protocol. 
+### 3. Problem we are trying to solve
+    
+It is not easy to bridge front end and back end for smart contract dapps. By providing a template for an API layer over the smart contracts, we guide teams to create a bridge to backend smart contract code accessible easily over http protocol. 
 
-4. Tech Stack used while building the project
+### 4. Tech Stack used while building the project
     Language: Haskell
     Tooling dependency: Cabal, Nix 
 
-5. Project Demo Photos, Videos
-    ### **Video walkthrough:**
+### 5. Demo Video
 
-    For a walkthrough on how to set up and use the tooling please watch this [video](https://youtu.be/6jOAhqwzyag).
+https://youtu.be/ez4AFcU9DKU
 
+### 6. Live Project Link
+    
+This project's design can be emulated by teams designing their smart contracts. By modifying the parameters/function names, the api endpoints can be activated in other projects. The functionality could be extended too.  
 
-6. Live Project Link
-    This project's design can be emulated by teams designing their smart contracts. By modifying the parameters/function names, the api endpoints can be activated in other projects. The functionality could be extended too.  
+### 7. PPT link
 
-7. PPT link
+https://docs.google.com/presentation/d/1c6D5M-RFzKNNZ8FsxkN3UAf-XEZWhb2BgaIfkf8_N64/edit#slide=id.p
 
-8. Team Info
+### 8. Team Info
     Team name: Lambdac
     Contact: Vinu Anil
     Email: vinuanilg@gmail.com
 
-9. How to use
+### 9. How to use
 
-    Include the attribute server into your plutus project by either using this project as a template or by copy the files under `app` and `src` into your project. At runtime, you need to run the `endpoint-server` executable which exposes the RESTful endpoints. For your custom projects update the deifinitions to match your smart contract's validator and its parametrisation. Some example contracts (Escrow & TokenMinter) are  given in this project that shows end to end functionality.  
+Include the RESTful server into your plutus project by either using this project as a template or by copy the files under `app` and `src` into your project. At runtime, you need to run the `endpoint-server` executable which exposes the RESTful endpoints. For your custom projects update the deifinitions to match your smart contract's validator and its parametrisation. Some example contracts (Escrow & TokenMinter) are  given in this project that shows end to end functionality.  
 
  
-### Running the attribute server
+### Running the RESTful server
 
 1. Run `nix-shell` from plutus-apps (clone from https://github.com/lambdacc/plutus-apps) and switch back to this project dir (_/lambdac_)
 
