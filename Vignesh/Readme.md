@@ -39,7 +39,7 @@ deno run -A airdrop.ts
 
 ## 7. PPT link
 
-[PPT](/PPT.pdf)
+[PPT](/Vignesh/PPT.pdf)
 
 ## 8. Team Member Info
 
