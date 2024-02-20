@@ -57,7 +57,11 @@ import {
     },
     Datum
   );
-   
+
+
+//Any Amount of ADA or any token to save in the piggy bank can be input, we have used 1 ADA for example
+
+
   const txLock = await lock(1000000, { into: validator, datum: datum });
    
   await lucid.awaitTx(txLock);

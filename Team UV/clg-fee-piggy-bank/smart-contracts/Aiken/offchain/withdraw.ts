@@ -77,7 +77,7 @@ const txUnlock = await unlock(utxos, currentTime, { from: validator, using: rede
  
 await lucid.awaitTx(txUnlock);
  
-console.log(`1 tADA recovered from the contract
+console.log(`investment tADA withdrawes from the contract
     Tx ID: ${txUnlock}
     Redeemer: ${redeemer}
 `);
