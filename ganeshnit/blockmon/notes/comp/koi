@@ -1,0 +1,27 @@
+private String txHash;
+private String blockHash;
+private Integer blockHeight;
+private Integer epochSlot;
+private Integer txBlockIndex;
+private String fee;
+private Integer invalidBefore;
+private Integer invalidAfter;
+private Integer txSize;
+private String deposit;
+
+
+private Integer epochNo;
+private Integer absoluteSlot;
+private Integer txTimestamp;
+private String totalOutput;
+private List<TxIO> collateralInputs;
+private List<TxIO> collateralOutputs;
+private List<TxIO> referenceInputs;
+private List<TxIO> inputs;
+private List<TxIO> outputs;
+private List<TxWithdrawal> withdrawals;
+private List<TxAsset> assetsMinted;
+private List<Metadata> metadata;
+private List<TxCertificate> certificates;
+private List<TxNativeScript> nativeScripts;
+private List<TxPlutusContract> plutusContracts;

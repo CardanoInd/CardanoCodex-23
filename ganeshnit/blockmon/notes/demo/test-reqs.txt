@@ -1,0 +1,286 @@
+curl 'https://api.cardanohook.net/api/v1/subscription/register-tx' -i -X PUT \
+    -H 'Content-Type: application/json' \
+    -H 'Accept: application/json' \
+    -d '{
+    "txHash" : "eddc6056003e5ad33b2c569922634dc25ccad5e01ba73c9c070784f7bcb6ebe0",
+    "webhookUrl" : "https://webhook.site/ca21b8c2-48c1-489d-aafb-fd872457b5cd",
+    "network" : "mainnet"
+}'
+
+curl 'https://api.cardanohook.net/api/v1/subscription/register-tx' -i -X PUT \
+    -H 'Content-Type: application/json' \
+    -H 'Accept: application/json' \
+    -d '{
+    "txHash" : "dd854e4c95cbb530f2924cfcca0cefa47ab5fcfd58a03fc3454082bab6a1a075",
+    "webhookUrl" : "https://webhook.site/ca21b8c2-48c1-489d-aafb-fd872457b5cd",
+    "network" : "mainnet"
+}'
+
+
+curl 'https://api.cardanohook.net/api/v1/subscription/register-tx' -i -X PUT \
+    -H 'Content-Type: application/json' \
+    -H 'Accept: application/json' \
+    -d '{
+    "txHash" : "9f0d69154643e0076dd9f48d1067221062090a9877fe1bc98c7af0d73a63699f",
+    "webhookUrl" : "https://webhook.site/ca21b8c2-48c1-489d-aafb-fd872457b5cd",
+    "network" : "mainnet"
+}'
+
+
+curl 'https://api.cardanohook.net/api/v1/subscription/register-tx' -i -X PUT \
+    -H 'Content-Type: application/json' \
+    -H 'Accept: application/json' \
+    -d '{
+    "txHash" : "0d58399c7e24f48dc72bd3e0a430428735003505fd51b262999e89f170ac47ca",
+    "webhookUrl" : "https://webhook.site/ca21b8c2-48c1-489d-aafb-fd872457b5cd",
+    "network" : "mainnet"
+}'
+
+
+curl 'https://api.cardanohook.net/api/v1/subscription/register-tx' -i -X PUT \
+    -H 'Content-Type: application/json' \
+    -H 'Accept: application/json' \
+    -d '{
+    "txHash" : "7f88fc1b1239826f00403659e61caeef059fbdb80dd9659fa395bdb27f1edcf8",
+    "webhookUrl" : "https://webhook.site/ca21b8c2-48c1-489d-aafb-fd872457b5cd",
+    "network" : "mainnet"
+}'
+
+curl 'https://api.cardanohook.net/api/v1/subscription/register-tx' -i -X PUT \
+    -H 'Content-Type: application/json' \
+    -H 'Accept: application/json' \
+    -d '{
+    "txHash" : "c463f96c9499bd1de623f2f83b44a42084120a858a560b6927bf62c2eccd3224",
+    "webhookUrl" : "https://webhook.site/ca21b8c2-48c1-489d-aafb-fd872457b5cd",
+    "network" : "mainnet"
+}'
+
+curl 'https://api.cardanohook.net/api/v1/subscription/register-tx' -i -X PUT \
+    -H 'Content-Type: application/json' \
+    -H 'Accept: application/json' \
+    -d '{
+  "txHash" : "54d5fdffa78826bba4085a9cd91bf4565ef0a69e885999cc7add7ac92c1c11a9",
+  "webhookUrl" : "https://webhook.site/ca21b8c2-48c1-489d-aafb-fd872457b5cd",
+  "network" : "mainnet"
+}'
+
+curl 'https://api.cardanohook.net/api/v1/subscription/register-tx' -i -X PUT \
+    -H 'Content-Type: application/json' \
+    -H 'Accept: application/json' \
+    -d '{
+  "txHash" : "a9a3a11a199a78132498f0fc5ff818385e5ef3b67ef5bd6c08635bea3ebfd912",
+  "webhookUrl" : "https://webhook.site/ca21b8c2-48c1-489d-aafb-fd872457b5cd",
+  "network" : "mainnet"
+}'
+
+curl 'https://api.cardanohook.net/api/v1/subscription/register-tx' -i -X PUT \
+    -H 'Content-Type: application/json' \
+    -H 'Accept: application/json' \
+    -d '{
+  "txHash" : "9722f7c67eb026aa2e26c03e8db7ae36f5f1901a15aa3425daff30a52f738760",
+  "webhookUrl" : "https://webhook.site/ca21b8c2-48c1-489d-aafb-fd872457b5cd",
+  "network" : "mainnet"
+}'
+
+curl 'https://api.cardanohook.net/api/v1/subscription/register-tx' -i -X PUT \
+    -H 'Content-Type: application/json' \
+    -H 'Accept: application/json' \
+    -d '{
+  "txHash" : "5f7e349529d1bf413a49c642509e64188e9ae19a24278919fecc13426f7642a0",
+  "webhookUrl" : "https://webhook.site/ca21b8c2-48c1-489d-aafb-fd872457b5cd",
+  "network" : "mainnet"
+}'
+
+curl 'https://api.cardanohook.net/api/v1/subscription/register-tx' -i -X PUT \
+    -H 'Content-Type: application/json' \
+    -H 'Accept: application/json' \
+    -d '{
+  "txHash" : "0e0ffa28d9430ef05239b70d225025b22f07092acd91e06c39aa56ab2edaa4dd",
+  "webhookUrl" : "https://webhook.site/ca21b8c2-48c1-489d-aafb-fd872457b5cd",
+  "network" : "mainnet"
+}'
+
+curl 'https://api.cardanohook.net/api/v1/subscription/register-tx' -i -X PUT \
+    -H 'Content-Type: application/json' \
+    -H 'Accept: application/json' \
+    -d '{
+  "txHash" : "834c2b87332c318d7d3b325df7ade265bce45b58343c8d313ea48e67d09df390",
+  "webhookUrl" : "https://webhook.site/ca21b8c2-48c1-489d-aafb-fd872457b5cd",
+  "network" : "mainnet"
+}'
+
+curl 'https://api.cardanohook.net/api/v1/subscription/register-tx' -i -X PUT \
+    -H 'Content-Type: application/json' \
+    -H 'Accept: application/json' \
+    -d '{
+  "txHash" : "bc73c1e67f500a3677d64da78398951f3518dd6a75fdea948f3131a3a3b1ecf8",
+  "webhookUrl" : "https://webhook.site/ca21b8c2-48c1-489d-aafb-fd872457b5cd",
+  "network" : "mainnet"
+}'
+
+curl 'https://api.cardanohook.net/api/v1/subscription/register-tx' -i -X PUT \
+    -H 'Content-Type: application/json' \
+    -H 'Accept: application/json' \
+    -d '{
+  "txHash" : "505eb6cc7c30929f4726e52a2b831accbd99c184629b5e685ba7a1f916f22325",
+  "webhookUrl" : "https://webhook.site/ca21b8c2-48c1-489d-aafb-fd872457b5cd",
+  "network" : "mainnet"
+}'
+
+
+curl 'https://api.cardanohook.net/api/v1/subscription/register-tx' -i -X PUT \
+    -H 'Content-Type: application/json' \
+    -H 'Accept: application/json' \
+    -d '{
+  "txHash" : "aa15640d2ec3c99bdb47b460fdfa8db6179d803bf1f1a16e4725dd0fdd2d1bf6",
+  "webhookUrl" : "https://webhook.site/ca21b8c2-48c1-489d-aafb-fd872457b5cd",
+  "network" : "mainnet"
+}'
+
+
+curl 'https://api.cardanohook.net/api/v1/subscription/register-tx' -i -X PUT \
+    -H 'Content-Type: application/json' \
+    -H 'Accept: application/json' \
+    -d '{
+  "txHash" : "2a0af4a59ef50d6969d20137cc32caecb0f33fc17766e197c5b24f995f67fe12",
+  "webhookUrl" : "https://webhook.site/ca21b8c2-48c1-489d-aafb-fd872457b5cd",
+  "network" : "mainnet"
+}'
+
+
+curl 'https://api.cardanohook.net/api/v1/subscription/register-tx' -i -X PUT \
+    -H 'Content-Type: application/json' \
+    -H 'Accept: application/json' \
+    -d '{
+  "txHash" : "c912f82679a817ae4fe571f692c02eeeccb7bcdafeb0b1ee0dfa2aba4b0a3ab5",
+  "webhookUrl" : "https://webhook.site/ca21b8c2-48c1-489d-aafb-fd872457b5cd",
+  "network" : "mainnet"
+}'
+
+
+curl 'https://api.cardanohook.net/api/v1/subscription/register-tx' -i -X PUT \
+    -H 'Content-Type: application/json' \
+    -H 'Accept: application/json' \
+    -d '{
+  "txHash" : "d97168ea3801f1b12e792d1e922d14c701b534b8d673b0c5c05f4c29953f0a8e",
+  "webhookUrl" : "https://webhook.site/ca21b8c2-48c1-489d-aafb-fd872457b5cd",
+  "network" : "mainnet"
+}'
+
+curl 'https://api.cardanohook.net/api/v1/subscription/register-tx' -i -X PUT \
+    -H 'Content-Type: application/json' \
+    -H 'Accept: application/json' \
+    -d '{
+  "txHash" : "d896d9e536a6028d29d7832257c86d473a6178144529d2d978807149020acbf6",
+  "webhookUrl" : "https://webhook.site/ca21b8c2-48c1-489d-aafb-fd872457b5cd",
+  "network" : "mainnet"
+}'
+
+curl 'https://api.cardanohook.net/api/v1/subscription/register-tx' -i -X PUT \
+    -H 'Content-Type: application/json' \
+    -H 'Accept: application/json' \
+    -d '{
+  "txHash" : "51f6bc8ee0343080438daec90bfd3e519e4b74ce7a5149de6077fe806bc35311",
+  "webhookUrl" : "https://webhook.site/ca21b8c2-48c1-489d-aafb-fd872457b5cd",
+  "network" : "mainnet"
+}'
+
+curl 'https://api.cardanohook.net/api/v1/subscription/register-tx' -i -X PUT \
+    -H 'Content-Type: application/json' \
+    -H 'Accept: application/json' \
+    -d '{
+  "txHash" : "feb77a33599b0a167398402092d7d3feb02093beb35f983fe205e946adb555f6",
+  "webhookUrl" : "https://webhook.site/ca21b8c2-48c1-489d-aafb-fd872457b5cd",
+  "network" : "mainnet"
+}'
+
+curl 'https://api.cardanohook.net/api/v1/subscription/register-tx' -i -X PUT \
+    -H 'Content-Type: application/json' \
+    -H 'Accept: application/json' \
+    -d '{
+  "txHash" : "e0d63265965456bd308f8d82068b8e5bf8896c7b6c1342711407dd0231c687d5",
+  "webhookUrl" : "https://webhook.site/ca21b8c2-48c1-489d-aafb-fd872457b5cd",
+  "network" : "mainnet"
+}'
+
+curl 'https://api.cardanohook.net/api/v1/subscription/register-tx' -i -X PUT \
+    -H 'Content-Type: application/json' \
+    -H 'Accept: application/json' \
+    -d '{
+  "txHash" : "0cec80a687c0a1d38fbb8f6ef874580ab8b6d73c1cf3aa500e20e842fd880163",
+  "webhookUrl" : "https://webhook.site/ca21b8c2-48c1-489d-aafb-fd872457b5cd",
+  "network" : "mainnet"
+}'
+
+curl 'https://api.cardanohook.net/api/v1/subscription/register-tx' -i -X PUT \
+    -H 'Content-Type: application/json' \
+    -H 'Accept: application/json' \
+    -d '{
+  "txHash" : "c6f9c43fe6e1c26b3dfc45013fa6d081e21de61c7b2e0b240abf8c362ed91782",
+  "webhookUrl" : "https://webhook.site/ca21b8c2-48c1-489d-aafb-fd872457b5cd",
+  "network" : "mainnet"
+}'
+
+curl 'https://api.cardanohook.net/api/v1/subscription/register-tx' -i -X PUT \
+    -H 'Content-Type: application/json' \
+    -H 'Accept: application/json' \
+    -d '{
+  "txHash" : "a42cb46990f194f4342375e0440597762e6e24e9fdf05ffc0e838ee705329356",
+  "webhookUrl" : "https://webhook.site/ca21b8c2-48c1-489d-aafb-fd872457b5cd",
+  "network" : "mainnet"
+}'
+
+curl 'https://api.cardanohook.net/api/v1/subscription/register-tx' -i -X PUT \
+    -H 'Content-Type: application/json' \
+    -H 'Accept: application/json' \
+    -d '{
+  "txHash" : "187c701d79452e45a19de2fff40382750d5c1a5ede695ef706163b84016e5165",
+  "webhookUrl" : "https://webhook.site/ca21b8c2-48c1-489d-aafb-fd872457b5cd",
+  "network" : "mainnet"
+}'
+
+curl 'https://api.cardanohook.net/api/v1/subscription/register-tx' -i -X PUT \
+    -H 'Content-Type: application/json' \
+    -H 'Accept: application/json' \
+    -d '{
+  "txHash" : "9c26a565656928acbaccc537855dc263a4d4b02947dd6bc890a7d281a2580b00",
+  "webhookUrl" : "https://webhook.site/ca21b8c2-48c1-489d-aafb-fd872457b5cd",
+  "network" : "mainnet"
+}'
+
+curl 'https://api.cardanohook.net/api/v1/subscription/register-tx' -i -X PUT \
+    -H 'Content-Type: application/json' \
+    -H 'Accept: application/json' \
+    -d '{
+  "txHash" : "87da072773e2048ea83d9225034fb88ff212b1ccf7bfb57478c217a01dd58fd7",
+  "webhookUrl" : "https://webhook.site/ca21b8c2-48c1-489d-aafb-fd872457b5cd",
+  "network" : "mainnet"
+}'
+
+curl 'https://api.cardanohook.net/api/v1/subscription/register-tx' -i -X PUT \
+    -H 'Content-Type: application/json' \
+    -H 'Accept: application/json' \
+    -d '{
+  "txHash" : "97ef6ab615a1e5baa24293eeb04228c7b64e71e798dc2efbb8d24d6ab042e5ba",
+  "webhookUrl" : "https://webhook.site/ca21b8c2-48c1-489d-aafb-fd872457b5cd",
+  "network" : "mainnet"
+}'
+
+curl 'https://api.cardanohook.net/api/v1/subscription/register-tx' -i -X PUT \
+    -H 'Content-Type: application/json' \
+    -H 'Accept: application/json' \
+    -d '{
+  "txHash" : "87da072773e2048ea83d9225034fb88ff212b1ccf7bfb57478c217a01dd58fd7",
+  "webhookUrl" : "https://webhook.site/ca21b8c2-48c1-489d-aafb-fd872457b5cd",
+  "network" : "mainnet"
+}'
+
+------------------------------------------------------------------------------
+curl 'http://localhost:8093/api/v1/subscription/register-tx' -i -X PUT \
+    -H 'Content-Type: application/json' \
+    -H 'Accept: application/json' \
+    -d '{
+    "txHash" : "54d5fdffa78826bba4085a9cd91bf4565ef0a69e885999cc7add7ac92c1c11a9",
+    "webhookUrl" : "https://webhook.site/ca21b8c2-48c1-489d-aafb-fd872457b5cd",
+    "network" : "mainnet"
+}'

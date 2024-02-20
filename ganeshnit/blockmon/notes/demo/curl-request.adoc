@@ -1,0 +1,16 @@
+[source,bash]
+----
+$
+
+curl 'https://api.cardanohook.net/api/v1/subscription/register-tx' -i -X PUT \
+    -H 'Content-Type: application/json' \
+    -H 'Accept: application/json' \
+    -d '{
+    "txHash" : "f6814bd4f4a92cfe27e33d5724b50302a16cb689472c93b729c471f9a1faaabe",
+    "webhookUrl" : "https://webhook.site/14e53d90-989b-4faf-91ad-89cdfbdeab99",
+    "network" : "mainnet"
+}'
+
+
+
+----
