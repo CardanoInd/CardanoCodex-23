@@ -15,7 +15,7 @@ import {
       "https://cardano-preprod.blockfrost.io/api/v0",
       Deno.env.get(BLOCKFROST_API_KEY),
     ),
-    "Preview",
+    "Preprod",
   );
    
   lucid.selectWalletFromPrivateKey(await Deno.readTextFile("./owner.sk"));
