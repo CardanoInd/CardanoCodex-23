@@ -1,0 +1,25 @@
+.input_container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.amount_input {
+  outline: none;
+  border: none;
+  max-height: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 22px;
+}
+
+.send_btn {
+  outline: none;
+  border: none;
+  background: white;
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  font-size: 22px;
+}
