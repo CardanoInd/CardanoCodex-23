@@ -15,7 +15,7 @@ The project addresses the financial challenges facing college students by offeri
 
 
 ## 4. Tech Stack used while building the project
-- Smart Contract: Opshin
+- Smart Contract: Opshin & Aiken
 - Cardano Piggy Bank Wallet: Cardano Native Script
 - Blockfrost: Submit API
 - Frontend: ReactJS
