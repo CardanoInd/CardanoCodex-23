@@ -1,0 +1,21 @@
+private String hash;
+private String block;
+private Integer blockHeight;
+private Integer slot;
+private Integer index;
+private String fees;
+private String invalidBefore;
+private String invalidHereafter;
+private Integer size;
+private String deposit;
+
+
+private List<TransactionOutputAmount> outputAmount = new ArrayList<TransactionOutputAmount>();
+private Integer utxoCount;
+private Integer withdrawalCount;
+private Integer mirCertCount;
+private Integer delegationCount;
+private Integer stakeCertCount;
+private Integer poolUpdateCount;
+private Integer poolRetireCount;
+private Integer assetMintOrBurnCount;

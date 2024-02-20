@@ -1,0 +1,27 @@
+select count(9) from tx;
+select * from tx order by id desc;
+
+
+create or replace function public.ds_notify_tx()
+    returns trigger
+as
+$$
+declare
+    channel text := TG_ARGV[0];
+begin
+    PERFORM pg_notify(
+            channel,
+            json_build_object(
+                    'operation', 'new_tx',
+                    'record', row_to_json(NEW)
+                )::text
+        );
+    RETURN NULL;
+end ;
+$$ language plpgsql;
+
+CREATE TRIGGER notify_tx
+    AFTER INSERT
+    ON public.tx
+    FOR EACH ROW
+EXECUTE PROCEDURE public.ds_notify_tx('ch_tx');
