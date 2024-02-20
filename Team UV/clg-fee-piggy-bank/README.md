@@ -64,7 +64,7 @@ That's it! You successfully compiled a Smart Contract on cardano and interacted 
 
 
 ## 6. If your project is deployed, then include the Live Project Link
-    It is a utility
+-  NA
 
 ## 7. PPT link 
 - https://docs.google.com/file/d/1_cCdG08bsD3hZIj7Oy1Hkuqj9j4QkPJ5/edit?filetype=mspresentation
